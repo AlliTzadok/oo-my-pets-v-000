@@ -13,6 +13,7 @@ class Owner
   #class method -  can count how many owners have been created
   def self.count
     @@owners.size
+  end
 
   #class method - reset_all -> reset the owners that have been created - clear...
   def self.reset_all
