@@ -20,6 +20,11 @@ class Owner
     @@owners.clear
   end
 
+  def initialize(name)
+    
+
+  
+
 
 
 end
