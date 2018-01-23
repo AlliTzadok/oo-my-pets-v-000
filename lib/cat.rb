@@ -8,7 +8,7 @@ class Cat
   #mood can be changed - attr_accessor
   def initialize(name)
     @name = name
-    @mood = nervous
+    @mood = "nervous"
   end
 
 
