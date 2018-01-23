@@ -19,4 +19,6 @@ class Owner
     @@owners.clear
   end
 
+  
+
 end
