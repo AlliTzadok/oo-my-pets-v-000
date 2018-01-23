@@ -20,10 +20,14 @@ class Owner
     @@owners.clear
   end
 
-  def initialize(name)
-    
+  def initialize(species)
+    @species = species
 
-  
+    @pets = {fishes: [], cats: [], dogs: []}
+  end
+
+
+
 
 
 
