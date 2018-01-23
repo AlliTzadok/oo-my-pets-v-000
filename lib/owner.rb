@@ -23,7 +23,7 @@ class Owner
   #initialize with a species, and species can't be changed.
   def initialize(species)
     @species = species
-
+    @@owners << self
     @pets = {:fishes => [], :cats => [], :dogs=> []}
   end
 
